@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import localFont from 'next/font/local';
 import Nav from '@/app/ui/nav';
+
+const myFont = localFont({ src: '../public/avali-scratch-rus-romanized.ttf'});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${myFont.className}`}
       >
         <div>
-          <Nav/>
+          <Nav />
         </div>
         {children}
       </body>

@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,7 +21,7 @@ body {
 
 
 .flex {
-  display: flex
+  display: flex;
 }
 
 .centered {
@@ -38,10 +40,27 @@ body {
   background-color: blue;
 }
 
-.yellow {
-  background-color: yellow;
+li {
+  padding: 20px;
 }
 
-li {
-  padding: 0;
+ul {
+  list-style-type: none;
+}
+
+.navLink {
+  color: black;
+}
+.navLink:visited {
+  color: black;
+}
+
+/* div {
+  font-family: "Amatic SC", serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+.nav {
+  font-size: 25px;
 }
