@@ -1,0 +1,25 @@
+.flex {
+    display: flex
+}
+
+.centered {
+    justify-content: center;
+}
+
+.wide {
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+
+li {
+    padding: 15px;
+    margin: 30px;
+}
