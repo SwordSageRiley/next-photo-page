@@ -1,6 +1,9 @@
 import Link from 'next/link';
+import { useContext } from 'react';
+
 
 export default function Nav(){
+
     return (
         <div className="yellow nav">
             <ul className="flex centered red">
