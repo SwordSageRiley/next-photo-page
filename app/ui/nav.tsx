@@ -5,7 +5,7 @@ import { useContext } from 'react';
 export default function Nav(){
 
     return (
-        <div className="yellow nav">
+        <div className="nav">
             <ul className="flex centered red">
                 <Link className='navLink' href='/' key='Home'><li className="blue">Home</li></Link>
                 <Link className='navLink' href='/Nature' key='Nature'><li className="blue">Nature</li></Link>
