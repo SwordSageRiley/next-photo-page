@@ -18,99 +18,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.flex {
-  display: flex;
-}
-
-.centered {
-  justify-content: center;
-}
-
-.wide {
-  width: 100%;
-}
-
-
-.blue {
-  background-color: blue;
-}
-
-li {
-  padding: 20px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.navLink {
-  color: black;
-}
-
-.navLink:visited {
-  color: black;
-}
-
-.nav {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  font-size: 25px;
-
-  padding: 0px;
-  margin: 0px;
-}
-
-.red {
-  margin: 0px;
-  width: 100vw;
-  padding: 0px;
-  margin: 0px;
-}
-
-
-.banner {
-  padding: 0px;
-  margin: 0px;
-  max-width: 100%;
-}
-
 .test {
   padding: 0px;
   margin: 0px;
 }
 
-.image-container {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
+.flex{
+  display: flex;
 }
 
-.logo {
-  height: 50px;
-  padding: 10px;
-}
-
-.middle-text {
-  position: absolute;
-  width: 14vw;
-  left: 43vw;
-  top: 80vh;
-
-  color: white;
-  font-weight: 700;
-  font-size: 5vh;
-
-  text-align: center;
-}
-
-
-@media only screen and (min-width : 1200px) {
-
-  .image-container {
-    top: -100px;
-    height: 115vh;
-  }
-}

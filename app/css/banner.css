@@ -1,0 +1,32 @@
+.image-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .middle-text {
+    position: absolute;
+    width: 14vw;
+    left: 43vw;
+    top: 80vh;
+  
+    color: white;
+    font-weight: 700;
+    font-size: 5vh;
+  
+    text-align: center;
+  }
+
+  .banner {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  @media only screen and (min-width : 1200px) {
+
+    .image-container {
+      top: -100px;
+      height: 115vh;
+    }
+  }

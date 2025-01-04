@@ -1,17 +1,17 @@
 'use client';
 
-import Image from "next/image";
-import Nav from '@/app/ui/nav';
-import { Pictures } from "./ui/pictures";
-import { Toggles } from '@/app/ui/toggles';
 import { useState } from "react";
 import localFont from 'next/font/local';
 
+import { Banner } from "./components/banner";
+import { About } from "./components/About";
+import { Nav } from '@/app/components/nav';
+import { Toggles } from '@/app/components/toggles';
 
 const myFont = localFont({ src: '../public/avali-scratch-rus-romanized.ttf' });
 
 export default function Home() {
-  
+
 
   const [avali, setAvali] = useState(false);
   const [theme, setTheme] = useState(true);
@@ -19,15 +19,16 @@ export default function Home() {
   function changeTheme() {
     setTheme(!theme);
   }
-  function changeAvali(){
+  function changeAvali() {
     setAvali(!avali);
   }
 
 
   return (
     <div className={`${avali ? myFont.className : ''} ${theme ? 'dark' : 'light'} test`}>
-      <Pictures />
+      <Banner />
       <Nav />
+      <About />
       <Toggles avaliToggle={changeAvali} darkToggle={changeTheme} />
     </div>
   );

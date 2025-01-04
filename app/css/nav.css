@@ -1,25 +1,25 @@
-.flex {
-    display: flex
-}
-
 .centered {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .wide {
     width: 100%;
 }
 
-.red {
-    background-color: red;
-}
+.nav {
+    background-color: blueviolet;
 
-.blue {
-    background-color: blue;
-}
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    font-size: 25px;
+  
+    padding: 0px;
+    margin: 0px;
+  }
 
-
-li {
-    padding: 15px;
-    margin: 30px;
-}
+  .logo {
+    height: 50px;
+    padding: 10px;
+  }

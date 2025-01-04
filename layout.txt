@@ -1,0 +1,23 @@
+nav bar:
+    socials
+    Riley Alouette
+    logo
+    drop down menu
+
+landing:
+    banner image
+    "see everything"
+
+selling piece:
+    picture(s) of me
+    some of my favorite pictures
+    "Creating Visual Stories"
+
+About the photographer:
+    another pic of me
+    bio and background
+    
+Picture section:
+    selection of pictures and works
+
+ 
