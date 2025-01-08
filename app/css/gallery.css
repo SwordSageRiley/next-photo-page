@@ -1,0 +1,14 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galbox {
+    height: 28vw;
+    width: 28vw;
+    overflow: hidden;
+}
+
+.galpic {
+    object-fit: cover;
+}

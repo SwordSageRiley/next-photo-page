@@ -32,6 +32,7 @@ export function Nav() {
                     <li><Link href='/'>Home</Link></li>
                     <li><Link href='/about'>About</Link></li>
                     <li><Link href='/contact'>Contact Me</Link></li>
+                    <li><Link href='/wildlife'>Wildlife</Link></li>
                 </ul>
             </div>
         </div>);
