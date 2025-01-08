@@ -1,25 +1,64 @@
 .centered {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .wide {
-    width: 100%;
+  width: 100%;
 }
 
 .nav {
-    background-color: blueviolet;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  font-size: 25px;
 
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    font-size: 25px;
-  
-    padding: 0px;
-    margin: 0px;
-  }
+  padding: 0px;
+  margin: 0px;
+}
 
-  .logo {
-    height: 50px;
-    padding: 10px;
-  }
+.logo {
+  height: 30px;
+  padding: 10px;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 30px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.nav ul li {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.burgOpen {
+  display: inline;
+}
+
+.burgClosed {
+  display: none;
+}
+
+.socials {
+  display: inline;
+}
+
+.icon {
+  max-width: 40px;
+  margin: 5px;
+}
+
+.scrolled {
+  color: black;
+  background-color: whitesmoke;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, .5);
+}
+
+.top {
+  color: white;
+}

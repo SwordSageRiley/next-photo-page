@@ -27,3 +27,12 @@ body {
   display: flex;
 }
 
+
+.dark {
+  background-color: grey;
+  color: #ffffff;
+}
+.light {
+  background-color: #ededed;
+  color: #171717;
+}

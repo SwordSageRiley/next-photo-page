@@ -1,0 +1,22 @@
+.oops {
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    position: fixed;
+    top: 45vh;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.homeButton {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 15px;
+}
