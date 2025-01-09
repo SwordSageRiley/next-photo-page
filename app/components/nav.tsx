@@ -6,9 +6,11 @@ import { useScrollPosition } from 'react-use-scroll-position';
 
 
 export function Nav() {
+    //state for the burger menu and scroll position to change styles on the nav bar.
     const [burger, setBurger] = useState(false);
     const { x, y } = useScrollPosition();
 
+    //self explanitory
     function toggleBurger() {
         setBurger(!burger);
     }
