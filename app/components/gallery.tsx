@@ -39,8 +39,8 @@ export function Gallery(props) {
     //event listener to handle keyboard input to control the slides
     useEffect(() => {
         const KeyDownHandler = (e) => {
-            switch (e.code) {
-                case "ArrowLeft":
+            switch (e.code) { //left and right arrows navigate the slideshow, escape closes it
+                case "ArrowLeft": 
                     prevSlide();
                     break;
                 case "ArrowRight":

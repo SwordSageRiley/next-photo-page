@@ -17,11 +17,11 @@ export function Nav() {
 
 
     return (
-        <div className={`nav flex centered ${y>0 ? 'scrolled' : 'top'}`}>
+        <div className='nav flex centered'>
             <div className='socials'>
-                <SocialIcon url='https://www.instagram.com/SwordSagePhotos/' className='icon' bgColor='transparent' fgColor={y>0 ? 'black' : 'white'} />
-                <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor={y>0 ? 'black' : 'white'} />
-                <SocialIcon url='https://bsky.app' className='icon' bgColor='transparent' fgColor={y>0 ? 'black' : 'white'} />
+                <SocialIcon url='https://www.instagram.com/SwordSagePhotos/' className='icon' bgColor='transparent' fgColor='black' />
+                <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor='white' />
+                <SocialIcon url='https://bsky.app' className='icon' bgColor='transparent' fgColor='white' />
             </div>
             <div className='mid'>
                 RILEY ALOUETTE
@@ -34,7 +34,10 @@ export function Nav() {
                     <li><Link href='/'>Home</Link></li>
                     <li><Link href='/about'>About</Link></li>
                     <li><Link href='/contact'>Contact Me</Link></li>
+                    <li><Link href='/nature'>Nature</Link></li>
                     <li><Link href='/wildlife'>Wildlife</Link></li>
+                    <li><Link href='/urban'>Urban</Link></li>
+                    <li><Link href='/architecture'>architecture</Link></li>
                 </ul>
             </div>
         </div>);

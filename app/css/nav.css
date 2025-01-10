@@ -17,6 +17,10 @@
   margin: 0px;
 
   z-index: 10;
+
+  color: black;
+  background-color: whitesmoke;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, .5);
 }
 
 .logo {
@@ -53,14 +57,4 @@
 .icon {
   max-width: 40px;
   margin: 5px;
-}
-
-.scrolled {
-  color: black;
-  background-color: whitesmoke;
-  box-shadow: 0px 10px 5px rgba(0, 0, 0, .5);
-}
-
-.top {
-  color: white;
 }
