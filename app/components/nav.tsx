@@ -20,8 +20,8 @@ export function Nav() {
         <div className='nav flex centered'>
             <div className='socials'>
                 <SocialIcon url='https://www.instagram.com/SwordSagePhotos/' className='icon' bgColor='transparent' fgColor='black' />
-                <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor='white' />
-                <SocialIcon url='https://bsky.app' className='icon' bgColor='transparent' fgColor='white' />
+                <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor='black' />
+                <SocialIcon url='https://bsky.app' className='icon' bgColor='transparent' fgColor='black' />
             </div>
             <div className='mid'>
                 RILEY ALOUETTE
