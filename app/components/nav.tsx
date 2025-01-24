@@ -30,7 +30,7 @@ export function Nav() {
             </div>
             <div className='menu'>
                 <img className='burger' src='https://i.imgur.com/7xRqU54.png' alt='Dropdown Menu' onClick={toggleBurger} />
-                <ul className={burger ? 'burgOpen' : 'burgClosed'}>
+                <ul className={`${burger ? 'burgOpen' : 'burgClosed'} burg`}>
                     <li><Link href='/'>Home</Link></li>
                     <li><Link href='/about'>About</Link></li>
                     <li><Link href='/contact'>Contact Me</Link></li>

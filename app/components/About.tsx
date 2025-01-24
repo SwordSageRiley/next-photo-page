@@ -42,19 +42,19 @@ export function About() {
 
     return (
         <div className="About flex tint">
-            <motion.div initial='hide' whileInView='show' variants={fadeIn} className='selfportrait' >
+            <motion.div initial='hide' whileInView='show' variants={fadeIn} viewport={{ once: true }} className='selfportrait' >
                 <img src='https://i.imgur.com/JB7vFMp.png' alt='Picture of Riley with her camera' className='selfpic' />
             </motion.div>
             <div className='about-me'>
-                <motion.div initial='hide' whileInView='show' variants={write} className='heading'>
+                <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={write} className='heading'>
                     <h3 className='heading'>About the Photographer</h3>
                 </motion.div>
-                <motion.div initial='hide' whileInView='show' variants={slideUp}>
+                <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp}>
                     <h1 >Riley Alouette</h1>
                     <hr />
                 </motion.div>
 
-                <motion.div initial='hide' whileInView='show' variants={slideUp}>
+                <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp}>
                     <p>Pacific Northwest photographer, designer, and creator.</p>
 
                     <p>Riley specializes in landscape and urban photography, following her passsion to frame the world in enticing
