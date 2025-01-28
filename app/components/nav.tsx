@@ -6,7 +6,6 @@ import { useState } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { useScrollPosition } from 'react-use-scroll-position';
 
-
 export function Nav() {
     //state for the burger menu and scroll position to change styles on the nav bar.
     const [burger, setBurger] = useState(false);
@@ -16,6 +15,7 @@ export function Nav() {
     function toggleBurger() {
         setBurger(!burger);
     }
+
 
 
     return (
@@ -32,15 +32,18 @@ export function Nav() {
             </div>
             <div className='menu'>
                 <img className='burger' src='https://i.imgur.com/7xRqU54.png' alt='Dropdown Menu' onClick={toggleBurger} />
-                <ul className={`${burger ? 'burgOpen' : 'burgClosed'} burg`}>
-                    <li><Link href='/'>Home</Link></li>
-                    <li><Link href='/about'>About</Link></li>
-                    <li><Link href='/contact'>Contact Me</Link></li>
-                    <li><Link href='/nature'>Nature</Link></li>
-                    <li><Link href='/wildlife'>Wildlife</Link></li>
-                    <li><Link href='/urban'>Urban</Link></li>
-                    <li><Link href='/architecture'>architecture</Link></li>
-                </ul>
+                <div className={`${burger ? 'burg-open' : 'burg-closed'} burg`}>
+                    <ul>
+                        <li><Link href='/'>Home</Link></li>
+                        <li><Link href='/about'>About</Link></li>
+                        <li><Link href='/contact'>Contact Me</Link></li>
+                        <li><Link href='/nature'>Nature</Link></li>
+                        <li><Link href='/wildlife'>Wildlife</Link></li>
+                        <li><Link href='/urban'>Urban</Link></li>
+                        <li><Link href='/architecture'>architecture</Link></li>
+                    </ul>
+                </div>
+
             </div>
         </div>);
 }

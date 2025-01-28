@@ -40,8 +40,10 @@
   top: 0;
   right: 0;
   margin-top: 50px;
-  padding: 15px;
+  padding-left: 0px;
+  padding-right: 20px;
   background-color: whitesmoke;
+  text-align: left;
 }
 
 .nav ul li {
@@ -49,11 +51,15 @@
   padding-right: 10px;
 }
 
-.burgOpen {
+.burg-open {
   display: inline;
+  animation-duration: 1s;
+  animation-name: slide-in;
 }
 
-.burgClosed {
+.burg-closed {
+  animation-duration: 1s;
+  animation-name: slide-out;
   display: none;
 }
 
@@ -64,4 +70,24 @@
 .icon {
   max-width: 40px;
   margin: 5px;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 300px 0;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    translate: 0 0;
+    display: inline;
+  }
+  to {
+    translate: 300px 0;
+    display: none;
+  }
 }

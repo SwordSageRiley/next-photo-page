@@ -57,7 +57,7 @@ export function About() {
                 <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp}>
                     <p>Pacific Northwest photographer, designer, and creator.</p>
 
-                    <p>Riley specializes in landscape and urban photography, following her passsion to frame the world in enticing
+                    <p>Riley specializes in landscape and urban photography, following her passion to frame the world in enticing
                         and thought provoking ways. She strives to create visual stories that bring her audience into little stories
                         in life. Her work and style reflect a blend of minimalism, color, traditional paintings, evolking the same
                         feelings you might have in a museum.
