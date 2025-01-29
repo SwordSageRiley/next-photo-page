@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import '@/app/css/gallery.css';
 
-
 export function Gallery(props) {
     //state to control if the slides are on and where they are.
     const [slideOn, toggleSlide] = useState(false);
@@ -70,7 +69,7 @@ export function Gallery(props) {
 
             <div className={`caro ${slideOn ? '' : 'slideOff'}`} >
                 <div className='slideshow-box' onClick={closeSlide}>
-                    <img src={props.pics[slideIdx].url} className='slideshow-pic' />
+                    <img src={props.pics[slideIdx].url} alt={props.pics[slideIdx].alt} className='slideshow-pic' />
                 </div>
                 <button onClick={nextSlide} className='next-button'> next</button>
                 <button onClick={prevSlide} className='prev-button'> prev</button>
