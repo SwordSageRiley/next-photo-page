@@ -23,12 +23,14 @@ export function Nav() {
             <div className='socials'>
                 <SocialIcon url='https://www.instagram.com/SwordSagePhotos/' className='icon' bgColor='transparent' fgColor='black' />
                 <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor='black' />
-                <SocialIcon url='https://bsky.app' className='icon' bgColor='transparent' fgColor='black' />
+                <SocialIcon url='https://bsky.app/profile/swordsageriley.bsky.social' className='icon' bgColor='transparent' fgColor='black' />
             </div>
             <div className='mid'>
-                RILEY ALOUETTE
-                <img className='logo' src='https://i.imgur.com/8Sm7oAx.png' alt='Avali Illuminate Symbol' />
-                PHOTOGRAPHY
+                <Link href="/">
+                    RILEY ALOUETTE
+                    <img className='logo' src='https://i.imgur.com/8Sm7oAx.png' alt='Avali Illuminate Symbol' />
+                    PHOTOGRAPHY
+                </Link>
             </div>
             <div className='menu'>
                 <img className='burger' src='https://i.imgur.com/7xRqU54.png' alt='Dropdown Menu' onClick={toggleBurger} />
