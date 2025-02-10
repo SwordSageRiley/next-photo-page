@@ -20,27 +20,27 @@ export function Highlight() {
     return (
         <div className="highlight">
             <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp} className='one picture'>
-                <img src='https://i.imgur.com/gZrtZ7Y.jpeg' className='one'
+                <img src='https://i.imgur.com/JVN6kQ0.jpeg' className='one'
                     alt='Photo of a brick building in shadow.' />
             </motion.div>
 
             <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp} className='two picture'>
-                <img src='https://i.imgur.com/iXQnb8v.jpeg' className='two'
+                <img src='https://i.imgur.com/I5EbYRM.jpeg' className='two'
                     alt='Photo of a house in autumn reflected on a lake.' />
             </motion.div>
 
             <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp} className='three picture'>
-                <img src='https://i.imgur.com/TfWhrEx.jpeg' className='three'
+                <img src='https://i.imgur.com/tqPscDV.jpeg' className='three'
                     alt='Photo of a swan reflected on a lake with a stone wall in the background.' />
             </motion.div>
 
             <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp} className='four picture'>
-                <img src='https://i.imgur.com/bobshri.jpeg' className='four'
+                <img src='https://i.imgur.com/YFhUzt3.jpeg' className='four'
                     alt='Photo of a beaver swimming.' />
             </motion.div>
 
             <motion.div initial='hide' whileInView='show' viewport={{ once: true }} variants={slideUp} className='five picture'>
-                <img src='https://i.imgur.com/aUCzPyk.jpeg' className='five'
+                <img src='https://i.imgur.com/lGqdHVr.jpeg' className='five'
                     alt='Photo of a red tailed hawk standing over a snake it had caught.' />
             </motion.div>
 

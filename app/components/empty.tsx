@@ -4,7 +4,7 @@ import '@/app/css/empty.css';
 export function Empty() {
     return (
         <div className="empty">
-            <img src='https://i.imgur.com/5dtp1N0.jpeg' className="oops" alt='Image of fog hanging over a lake' />
+            <img src='https://i.imgur.com/Pk0gaod.jpeg' className="oops" alt='Image of fog hanging over a lake' />
             <div className="text">
                 <h1>Sorry About That!</h1>
                 <p>This page is still under construction.</p>
