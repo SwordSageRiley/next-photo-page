@@ -1,13 +1,10 @@
 import '@/app/css/banner.css';
 
-export function Banner(){
+export function Banner() {
     return (
-        <div>
-            <div className="image-container">
-                <img className="banner" src="https://i.imgur.com/CIwOHcN.jpeg" alt="Photo of a fall forest, with a gradient of tree colors
-                 reflected on the water." />
-                <div className="middle-text">See Everything</div>
-            </div>
+        <div className="image-container">
+            <div>See</div>
+            <div className='bottom-text'>Everything</div>
         </div>
     );
 }

@@ -72,10 +72,39 @@
   margin: 5px;
 }
 
+.mid {
+  display: flex;
+}
+
+.element1 {
+  padding-right: 5px;
+}
+
+
+@media only screen and (max-width:1200px) {
+  .element4 {
+    display: none;
+  }
+
+  .element1 {
+    order: 1
+  }
+
+  .element2 {
+    order: 3
+  }
+
+  .element3 {
+    order: 2
+  }
+}
+
+
 @keyframes slide-in {
   from {
     translate: 300px 0;
   }
+
   to {
     translate: 0 0;
   }
@@ -86,6 +115,7 @@
     translate: 0 0;
     display: inline;
   }
+
   to {
     translate: 300px 0;
     display: none;
