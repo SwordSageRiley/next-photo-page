@@ -34,21 +34,21 @@
 .three {
     top: 105vh;
     left: 25vw;
-    height: 50vh;
+    height: 50vw;
     z-index: 4;
 }
 
 .two {
     top: 113vh;
     left: 10vw;
-    height: 45vh;
+    height: 45vw;
     z-index: 6;
 }
 
 .one {
     top: 140vh;
     left: 70vw;
-    height: 40vh;
+    height: 40vw;
     z-index: 7;
 }
 

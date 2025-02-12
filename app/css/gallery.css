@@ -54,6 +54,7 @@
 .slideshow-pic {
     max-height: 85vh;
     max-width: 90vw;
+    object-fit: contain;
 }
 
 .next-button {
