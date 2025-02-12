@@ -8,6 +8,7 @@
     background-image: url(https://i.imgur.com/OPTGDpW.jpeg);
     background-attachment: fixed;
     background-position-y: 40%;
+    background-position: right 0;
 
     display: flex;
     justify-content: center;

@@ -4,12 +4,12 @@ import Link from 'next/link';
 import '@/app/css/nav.css';
 import { useState } from 'react';
 import { SocialIcon } from 'react-social-icons';
-import { useScrollPosition } from 'react-use-scroll-position';
+// import { useScrollPosition } from 'react-use-scroll-position';
 
 export function Nav() {
     //state for the burger menu and scroll position to change styles on the nav bar.
     const [burger, setBurger] = useState(false);
-    const { x, y } = useScrollPosition();
+    // const { x, y } = useScrollPosition();
 
     //self explanitory
     function toggleBurger() {
@@ -26,7 +26,7 @@ export function Nav() {
                 <SocialIcon url='https://bsky.app/profile/swordsageriley.bsky.social' className='icon' bgColor='transparent' fgColor='black' />
             </div>
             <div className='mid'>
-                <div className='element1'>RILEY</div>
+                <div className='element1'>RILEY&nbsp;</div>
                 <div className='element2'>ALOUETTE</div>
                 <img className='logo element3' src='https://i.imgur.com/8Sm7oAx.png' alt='Avali Illuminate Symbol' />
                 <div className='element4'>PHOTOGRAPHY</div>
@@ -37,7 +37,7 @@ export function Nav() {
                     <ul>
                         <li><Link href='/'>Home</Link></li>
                         <li><Link href='/about'>About</Link></li>
-                        <li><Link href='/contact'>Contact Me</Link></li>
+                        {/* <li><Link href='/contact'>Contact Me</Link></li> */}
                         <li><Link href='/nature'>Nature</Link></li>
                         <li><Link href='/wildlife'>Wildlife</Link></li>
                         <li><Link href='/urban'>Urban</Link></li>

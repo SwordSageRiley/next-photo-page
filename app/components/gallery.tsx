@@ -71,8 +71,8 @@ export function Gallery(props) {
                 <div className='slideshow-box' onClick={closeSlide}>
                     <img src={props.pics[slideIdx].url} alt={props.pics[slideIdx].alt} className='slideshow-pic' />
                 </div>
-                <button onClick={nextSlide} className='next-button'> next</button>
-                <button onClick={prevSlide} className='prev-button'> prev</button>
+                <button onClick={nextSlide} className='next-button nav-button'>{">"}</button>
+                <button onClick={prevSlide} className='prev-button nav-button'>{"<"}</button>
                 <button onClick={closeSlide} className='close-slide'>X</button>
             </div>
         </div>

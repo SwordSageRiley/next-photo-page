@@ -76,11 +76,7 @@
   display: flex;
 }
 
-.element1 {
-  padding-right: 5px;
-}
-
-
+/* Tablet Responiveness */
 @media only screen and (max-width:1200px) {
   .element4 {
     display: none;
@@ -99,7 +95,14 @@
   }
 }
 
+/* Mobile Responiveness */
+@media only screen and (max-width:600px) {
+  .socials {
+    display: none;
+  }
+}
 
+/* Animations for Burger Menu */
 @keyframes slide-in {
   from {
     translate: 300px 0;
