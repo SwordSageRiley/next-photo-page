@@ -5,7 +5,7 @@ import { motion, Variants } from 'framer-motion';
 import '@/app/css/about.css';
 
 
-export function About() {
+export default function About() {
 
     const fadeIn: Variants = {
         hide: {
