@@ -5,7 +5,7 @@ import localFont from 'next/font/local';
 
 import { Banner } from "./components/banner";
 import { Nav } from '@/app/components/nav';
-import About from './components/about';
+// import About from './components/about';
 import { Toggles } from '@/app/components/toggles';
 import { Highlight } from "@/app/components/highlight";
 
@@ -30,7 +30,7 @@ export default function Home() {
       <Banner />
       <Nav />
       {/* <Highlight /> */}
-      <About />
+      {/* <About /> */}
       {/* <Toggles avaliToggle={changeAvali} darkToggle={changeTheme} /> */}
     </div>
   );
