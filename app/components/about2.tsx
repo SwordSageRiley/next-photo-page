@@ -41,7 +41,7 @@ export function About() {
     }
 
     return (
-        <div className="about flex tint">
+        <div className="about flex tint testabout">
             <motion.div initial='hide' whileInView='show' variants={fadeIn} viewport={{ once: true }} className='selfportrait' >
                 <img src='https://i.imgur.com/JB7vFMp.png' alt='Picture of Riley with her camera' className='selfpic' />
             </motion.div>
