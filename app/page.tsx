@@ -31,7 +31,7 @@ export default function Home() {
       <Nav />
       {/* <Highlight /> */}
       <About />
-      <Toggles avaliToggle={changeAvali} darkToggle={changeTheme} />
+      {/* <Toggles avaliToggle={changeAvali} darkToggle={changeTheme} /> */}
     </div>
   );
 }
