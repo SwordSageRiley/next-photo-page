@@ -10,20 +10,20 @@ import { About } from "./components/about2";
 // import { Toggles } from '@/app/components/toggles';
 // import { Highlight } from "@/app/components/highlight";
 
-const myFont = localFont({ src: '../public/avali-scratch-rus-romanized.ttf' });
+//const myFont = localFont({ src: '../public/avali-scratch-rus-romanized.ttf' });
 
 export default function Home() {
 
 
-  const [avali, setAvali] = useState(false);
-  const [theme, setTheme] = useState(true);
+  // const [avali, setAvali] = useState(false);
+  // const [theme, setTheme] = useState(true);
 
-  function changeTheme() {
-    setTheme(!theme);
-  }
-  function changeAvali() {
-    setAvali(!avali);
-  }
+  // function changeTheme() {
+  //   setTheme(!theme);
+  // }
+  // function changeAvali() {
+  //   setAvali(!avali);
+  // }
 
 
   return (
