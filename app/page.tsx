@@ -4,8 +4,8 @@ import { useState } from "react";
 import localFont from 'next/font/local';
 
 import { Banner } from "./components/banner";
-import About from './components/about';
 import { Nav } from '@/app/components/nav';
+import About from './components/about';
 import { Toggles } from '@/app/components/toggles';
 import { Highlight } from "@/app/components/highlight";
 
