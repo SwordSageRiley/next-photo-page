@@ -29,7 +29,7 @@ export default function Home() {
     <div className={`${avali ? myFont.className : ''} ${theme ? 'dark' : 'light'} test`}>
       <Banner />
       <Nav />
-      <Highlight />
+      {/* <Highlight /> */}
       <About />
       <Toggles avaliToggle={changeAvali} darkToggle={changeTheme} />
     </div>

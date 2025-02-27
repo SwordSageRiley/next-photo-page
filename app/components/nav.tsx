@@ -23,13 +23,13 @@ export function Nav() {
             <div className='socials'>
                 <SocialIcon url='https://www.instagram.com/SwordSagePhotos/' className='icon' bgColor='transparent' fgColor='black' />
                 <SocialIcon url='https://www.x.com/SwordSagePhotos' className='icon' bgColor='transparent' fgColor='black' />
-                <SocialIcon url='https://bsky.app/profile/swordsageriley.bsky.social' className='icon' bgColor='transparent' fgColor='black' />
+                {/* <SocialIcon url='https://bsky.app/profile/swordsageriley.bsky.social' className='icon' bgColor='transparent' fgColor='black' /> */}
             </div>
             <div className='mid'>
-                <div className='element1'>RILEY&nbsp;</div>
-                <div className='element2'>ALOUETTE</div>
+                <div className='element1 vh-align'>RILEY&nbsp;</div>
+                <div className='element2 vh-align'>ALOUETTE</div>
                 <img className='logo element3' src='https://i.imgur.com/8Sm7oAx.png' alt='Avali Illuminate Symbol' />
-                <div className='element4'>PHOTOGRAPHY</div>
+                <div className='element4 vh-align'>PHOTOGRAPHY</div>
             </div>
             <div className='menu'>
                 <img className='burger' src='https://i.imgur.com/7xRqU54.png' alt='Dropdown Menu' onClick={toggleBurger} />

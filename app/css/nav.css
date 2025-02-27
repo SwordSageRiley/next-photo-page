@@ -95,6 +95,10 @@
   }
 }
 
+.vh-align {
+  margin: auto 0 auto 0;
+}
+
 /* Mobile Responiveness */
 @media only screen and (max-width:600px) {
   .socials {
