@@ -18,16 +18,16 @@ export default function Home() {
   const [avali, setAvali] = useState(false);
   const [theme, setTheme] = useState(true);
 
-  // function changeTheme() {
-  //   setTheme(!theme);
-  // }
-  // function changeAvali() {
-  //   setAvali(!avali);
-  // }
+  function changeTheme() {
+    setTheme(!theme);
+  }
+  function changeAvali() {
+    setAvali(!avali);
+  }
 
 
   return (
-    <div className={`${avali ? myFont.className : ''} ${theme ? 'dark' : 'light'} test`}>
+    <div className={` test`}>
       <Banner />
       <Nav />
       {/* <Highlight /> */}
@@ -36,3 +36,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+//${avali ? myFont.className : ''} ${theme ? 'dark' : 'light'}
