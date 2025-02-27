@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from "react";
-import localFont from 'next/font/local';
+// import { useState } from "react";
+// import localFont from 'next/font/local';
 
 import { Banner } from "./components/banner";
 import { Nav } from '@/app/components/nav';
